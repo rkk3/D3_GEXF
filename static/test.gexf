@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:ns0="http://www.gexf.net/1.1draft/viz" version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="url" type="string" />
+    </attributes>
+    <nodes>
+      <node id="test1" label="test1">
+        <ns0:color b="72" g="81" r="235" />
+        <ns0:size value="28.68" />
+        <ns0:position x="0.767166104532" y="1.51596098769" z="0" />
+      </node>
+      <node id="test3" label="test3">
+        <ns0:color b="72" g="81" r="235" />
+        <ns0:size value="28.68" />
+        <ns0:position x="1.52594283054" y="0.0" z="0" />
+      </node>
+      <node id="test2" label="test2">
+        <ns0:color b="72" g="81" r="235" />
+        <ns0:size value="28.68" />
+        <ns0:position x="1.09043566763" y="2.0" z="0" />
+      </node>
+      <node id="test4" label="test4">
+        <ns0:color b="72" g="81" r="235" />
+        <ns0:size value="28.68" />
+        <ns0:position x="0.0" y="1.76670267951" z="0" />
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="test1" target="test3" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="http://www.google.com" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="test1" target="test2" weight="10.0">
+        <attvalues>
+          <attvalue for="0" value="http://www.google.com" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="test1" target="test4" weight="5.0">
+        <attvalues>
+          <attvalue for="0" value="http://www.google.com" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
